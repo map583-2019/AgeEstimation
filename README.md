@@ -1,7 +1,7 @@
-# AgeEstimation
+# Age Estimation
 Age estimation by Pytorch
 
-### The .ipynb file second approach is the main file for the code
+### The SecondAttempt.ipynb file is the main file for the code
 ### Other .ipynb files are supporting files
 preprocessing.ipynb: This file is to preprocess the dataset. <br>
 remove_outliers.ipynb: This file is to remove the empty images in the dataset. <br>
