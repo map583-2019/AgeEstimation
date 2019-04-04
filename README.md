@@ -17,3 +17,4 @@ Currently we are working on 1-GB WIKI Face-Only data set.
 
 Data Description
 
+![alt text](https://github.com/map583-2019/AgeEstimation/blob/master/AgeDistribution.png)
