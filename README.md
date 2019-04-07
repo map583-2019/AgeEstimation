@@ -29,8 +29,8 @@ As Azure platform budget had expired, I trained the model with my local CPU. To 
 ![alt text](https://github.com/map583-2019/AgeEstimation/blob/master/pictures/cropped_dataset_distribution.png)
 
 The data is not very vlean. I removed the image files with no pixels and images with negative age label. Images in the dataset still have deficits such as <br>
-  the labeled age could be appararently not correct, <br
-  The face may be very small in the image. 
+&nbsp&nbsp the labeled age could be appararently not correct, <br>
+&nbsp&nbsp The face may be very small in the image. 
 
 
 ### Results
