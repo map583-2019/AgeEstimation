@@ -18,7 +18,7 @@ cp_part.ipynb: This file to generate a smaller dataset in order to debug the cod
 The data could be found here: https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/ <br>
 Currently we are working on 1-GB WIKI Face-Only data set.
 
-![alt text](https://github.com/map583-2019/AgeEstimation/blob/master/pictures/wikiimdb.png)
+![alt text](https://github.com/map583-2019/AgeEstimation/blob/master/pictures/wikiimdb.JPG)
 
 There are 62328 images in total in this dataset (50386 images after outlier removal). The figure below shows the data's distribution by ages. The dataset is split into training, validation and test dateset with the ration 90:5:5. 
 
