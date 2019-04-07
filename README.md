@@ -28,6 +28,10 @@ As Azure platform budget had expired, I trained the model with my local CPU. To 
 
 ![alt text](https://github.com/map583-2019/AgeEstimation/blob/master/pictures/cropped_dataset_distribution.png)
 
+The data is not very vlean. I removed the image files with no pixels and images with negative age label. Images in the dataset still have deficits such as <br>
+  the labeled age could be appararently not correct, <br
+  The face may be very small in the image. 
+
 
 ### Results
 On my cropped dataset, SimpleCNN-KLDivLoss version, VGG16-KLDivLoss version and VGG16-soft-cross-entropy version failed to converge during training. 
@@ -42,6 +46,8 @@ but the prediction is not good either. It seems that the trained model always te
 I also tested directly the model trained by Samet Çetin, which is better than mine but also limited on our dataset: 
 
 ![alt text](https://github.com/map583-2019/AgeEstimation/blob/master/pictures/test_cetinsament.png)
+
+It predicts better for images between 20 and 40 years old, while not so good outside this range. 
 
 ### Future works
 The principle is relatively simple in this task, but my code does not reach a satisfying results. The reason might be the lack of data (at most 50 images for each age in my dataset, at the dataset is not very clean), the unoptimized nework structure, the unoptimized data preprocessing jobs, or something else. <br>
