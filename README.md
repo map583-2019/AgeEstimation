@@ -47,7 +47,7 @@ I also tested directly the model trained by Samet Çetin, which is better than m
 
 ![alt text](https://github.com/map583-2019/AgeEstimation/blob/master/pictures/test_cetinsament.png)
 
-It predicts better for images between 20 and 40 years old, while not so good outside this range. 
+It predicts better for images between 20 and 40 years old, while not so good outside this range. The code of this figure is in my forked version of Samet Çetin's project: https://github.com/map583-2019/age-estimation. 
 
 ### Future works
 The principle is relatively simple in this task, but my code does not reach a satisfying results. The reason might be the lack of data (at most 50 images for each age in my dataset, at the dataset is not very clean), the unoptimized nework structure, the unoptimized data preprocessing jobs, or something else. <br>
